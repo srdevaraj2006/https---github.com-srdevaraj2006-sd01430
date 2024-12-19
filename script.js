@@ -4,8 +4,8 @@ function checkcon() {
             var email = "srdevaraj2006@gmail.com";
             var pass = "SGrajseaker@1234"
             if(emailval == email && passValue==pass) {
-               window.open("siteindex11.html")
-               window.close("login11.html")
+               window.open("siteindex.html")
+               window.close("login.html")
             }
             else{
                 alert("Invalid details")
@@ -13,19 +13,19 @@ function checkcon() {
 }`  `
 function gotosignup(){
     window.open("index.html")
-    window.close("login11.html")
+    window.close("login.html")
 }
 function gotologin(){
-    window.open("login11.html")
-    window.close("ind.html")
+    window.open("login.html")
+    window.close("index.html")
 }
 function logout(){
-    window.open("login11.html")
+    window.open("login.html")
     window.close("profileinfo.html")
 }
 function gotoprofileinfo(){
     window.open("profileinfo.html")
-    window.close("siteindex11.html")
+    window.close("siteindex.html")
 }
 function gotoaddstudent(){
     window.open("addstudent.html")
@@ -34,6 +34,6 @@ function gotoremstudent(){
     window.open("remstudent.html")
 }
 function profileinfotosite(){
-    window.open("siteindex11.html")
+    window.open("siteindex.html")
     window.close("profileinfo.html")
 }
