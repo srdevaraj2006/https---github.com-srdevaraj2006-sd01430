@@ -1,0 +1,93 @@
+body{
+    background-color: blue;
+}
+.contianer{
+    margin-bottom: 15%;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    background-color: rgb(128, 128, 239);
+    box-shadow: 10px 8px 25px 2px black;
+    border-radius: 10px;
+}
+#stdname{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#stdrollno{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#branchname{
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#yearofstd{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#goback{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40%;
+    margin-left: 0px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(134, 134, 146);
+}
+#goback:hover{
+    background-color: blue;
+    box-shadow: 10px 8px 25px 2px black;
+}
+#addbutton{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40%;
+    margin-left: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(27, 27, 139);
+}
+#addbutton:hover{
+    background-color: blue;
+    box-shadow: 10px 8px 25px 2px black;
+}
+@media only screen and (max-width:414px) {
+    #stdname{
+        font-size: 15px;
+    }
+    #stdrollno{
+        font-size: 15px;
+    }
+    #branchname{
+        font-size: 15px;
+    }
+    #yearofstd{
+        font-size: 15px;
+    }
+    #addbutton{
+        margin-top: -20px;
+    }
+}
