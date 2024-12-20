@@ -32,6 +32,7 @@ input{
     padding: 8px;
     padding-left: 30px;
     padding-right: 30px;
+    font-size: medium;
 }
 input[name="button"]{
     margin-bottom: 10px;
