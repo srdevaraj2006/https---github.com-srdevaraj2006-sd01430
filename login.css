@@ -1,6 +1,9 @@
 body{
     background-color: blue;
 }
+h1{
+    font-size: 50px;
+}
 .toppctext{
     background-color: red;
     padding-top: 3px;
@@ -28,11 +31,17 @@ body{
     margin-bottom: 10px;
     height: 20px;
     border-radius: 5px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #loginpassword{
     width: 70%;
     margin-bottom: 10px;
     border-radius: 5px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 20px;
 }
 #pcforgetpasswordbutton{
@@ -43,7 +52,11 @@ body{
     text-align: center;
     background-color: rgb(53, 32, 138);
     color: whitesmoke;
-    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size:small;
+    padding-right: 10px;
     margin-right: 15px;
 }
 #pcforgetpasswordbutton:hover{
@@ -59,7 +72,11 @@ body{
     text-align: center;
     background-color: rgb(53, 32, 138);
     color: whitesmoke;
-    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size:small;
+    padding-right: 10px;
 }
 #pcsignupbutton:hover{
     background-color: blue;
@@ -70,6 +87,9 @@ input[name="button"]{
     border-radius: 5px;
     width: 50%;
     border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: medium;
     background-color: red;
     color: yellow;
 }
