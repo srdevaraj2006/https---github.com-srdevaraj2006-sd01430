@@ -2,107 +2,78 @@ body{
     background-color: blue;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
-.toppctext{
-    background-color: red;
-    padding-top: 3px;
-    padding-bottom: 4px;
-    margin-left: 80px;
-    margin-top: 70px;
-    margin-right: 80px;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-    border-left: 5px solid black;
-    border-radius: 20px;
-    box-shadow:0 20px 35px rgb(0,0,1,0.9);
+.contianer{
+    margin-top: 20%;
+    margin-bottom: 40px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 15 4px 5px 16px black;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+input:focus{
+    outline: none;
+}
+.input{
+    border-top: transparent;
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom:2px solid white;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: medium;
+}
 
-}
-.pctext{
-    background-color: rgb(128, 128, 239);
-    border-radius: 20px;
-    text-align: center;
-    font-size: 15px;
-    border: 2px solid black;
-}
-#loginemail{
-    width: 70%;
-    margin-bottom: 10px;
-    height: 20px;
-    border-radius: 5px;
-    font-size: medium;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#loginpassword{
-    width: 70%;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: medium;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 20px;
-}
-#pcforgetpasswordbutton{
-    border: 1px solid black;
-    padding: 2px;
-    border-radius: 4px;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(53, 32, 138);
-    color: whitesmoke;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    font-size:small;
-    padding-right: 10px;
-    margin-right: 15px;
-}
-#pcforgetpasswordbutton:hover{
-    background-color: blue;
-    color: yellow;
-}
-#pcsignupbutton{
-    border: 1px solid black;
-    margin-right: 10px;
-    padding: 2px;
-    border-radius: 4px;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(53, 32, 138);
-    color: whitesmoke;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    font-size:small;
-    padding-right: 10px;
-}
-#pcsignupbutton:hover{
-    background-color: blue;
-    color: yellow;
-}
 input[name="button"]{
-    margin-bottom: 20px;
-    border-radius: 5px;
-    width: 50%;
-    border-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: medium;
-    background-color: red;
-    color: yellow;
+    
 }
 input[name="button"]:hover{
-    background-color: blueviolet;
+    background-color:blue;
     color: white;
     border-radius: 5px;
     border-color: red;
 }
+#pcloginbutton{
+  text-decoration: none;
+  color: white;
+}
+#pcloginbutton:hover{
 
-@media only screen and (max-width:414px) {
+}
+@media only screen and (max-width:350px) {
+    .contianer{
+        background-color: rgb(128, 128, 239);
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 10px 8px 25px 2px black;
+        font-size: 15px;
+        border: 2px solid black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .input{
+        margin-bottom: 5px;
+        font-size:medium;
+        width: 50%;
+        color: red;
+    }
     .toppctext{
-        margin-top: 60px;
+        margin-top: 20px;
         background-color: red;
         padding-top: 3px;
         padding-bottom: 4px;
@@ -115,34 +86,24 @@ input[name="button"]:hover{
         border-radius: 20px;
         box-shadow:0 20px 35px rgb(0,0,1,0.9);
     }
-    .pctext{
-        background-color: rgb(128, 128, 239);
-        border-radius: 20px;
-        text-align: center;
-        font-size: 15px;
-        border: 2px solid black;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        
-    }
-    input[name="button"]{
-        margin-bottom: 10px;
+
+input[name="button"]{
+    margin-bottom: 10px;
+    margin-top: 20px;
     border-radius: 2px;
     width: 70%;
-    height: 25px;
     border-radius: 10px;
-    font-size: 15px;
     border-color: black;
     background-color: red;
     color: yellow;
-    }
-    input[name="button"]:hover{
-        background-color:blue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+input[name="button"]:hover{
+    background-color:blue;
     color: white;
     border-radius: 5px;
     border-color: red;
     border-radius: 10px;
-    }
-    #loginemail{
-        margin-bottom: 10px;
-    }
+}
 }

@@ -2,7 +2,7 @@ function checkcon() {
             const emailval = document.getElementById('loginemail').value
             const passValue = document.getElementById('loginpassword').value
             var email = "srdevaraj2006@gmail.com";
-            var pass = "SGrajseaker@1234"
+            var pass = "123"
             if(emailval == email && passValue==pass) {
                window.open("siteindex.html")
                window.close("login.html")
@@ -29,9 +29,11 @@ function gotoprofileinfo(){
 }
 function gotoaddstudent(){
     window.open("addstudent.html")
+    window.close()
 }
 function gotoremstudent(){
     window.open("remstudent.html")
+    window.close()
 }
 function profileinfotosite(){
     window.open("siteindex.html")

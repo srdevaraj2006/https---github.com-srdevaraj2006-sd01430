@@ -177,69 +177,75 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
         }
     #profileinfo{
         background-color: rgb(143, 77, 205);
-    color:white;
-    margin-left: 60px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 75px;
-    padding-right: 85px;
-    border-radius: 5px;
-    font-size: 10px;
-    }
-    #addstudent{
-        background-color: rgb(143, 77, 205);
         color:white;
-        margin-left: 60px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 75px;
-        padding-right: 80px;
-        border-radius: 5px;
-        font-size: 10px;
-    }
-    #removestudent{
-        background-color: rgb(143, 77, 205);
-        color:white;
-        margin-left: 60px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 75px;
-        padding-right: 77px;
-        border-radius: 5px;
-        font-size: 10px;
-    }
-    #updatestudent{
-        background-color: rgb(143, 77, 205);
-        color:white;
-        margin-left: 60px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-left: 75px;
-        padding-right: 80px;
-        border-radius: 5px;
-        font-size: 10px;
-    }
-    #checkinfo{
-        background-color: rgb(143, 77, 205);
-        color:white;
-        margin-left: 60px;
+        margin-left: 39px;
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 75px;
         padding-right: 85px;
         border-radius: 5px;
-        font-size: 10px;
+        margin-bottom: 5px;
+        font-size: medium;
+    }
+    #addstudent{
+        background-color: rgb(143, 77, 205);
+        color:white;
+        margin-left: 39px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-bottom: 5px;
+        padding-left: 75px;
+        padding-right: 80px;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    #removestudent{
+        background-color: rgb(143, 77, 205);
+        color:white;
+        margin-left: 39px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-bottom: 5px;
+        padding-left: 75px;
+        padding-right: 77px;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    #updatestudent{
+        background-color: rgb(143, 77, 205);
+        color:white;
+        margin-left: 39px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 75px;
+        margin-bottom: 5px;
+        padding-right: 80px;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    #checkinfo{
+        background-color: rgb(143, 77, 205);
+        color:white;
+        margin-left: 39px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 75px;
+        padding-right: 85px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-size: medium;
     }
     #takeatd{
         background-color: rgb(143, 77, 205);
         color:white;
-        margin-left: 60px;
+        margin-left: 39px;
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 75px;
         padding-right: 94px;
         border-radius: 5px;
-        font-size: 10px;
+        margin-bottom:5px;
+        font-size: medium;
     }
     #logout{
         background-color: rgb(219, 103, 103);

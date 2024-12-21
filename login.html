@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sd/login/site.net</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <form action="" method="">
-        <div class="toppctext">
-            <div class="pctext">
-                <h1>Login</h1>
-                <input type="text" placeholder="Enter your mail-ID :" id="loginemail" required><br>
-                <input type="password" placeholder="Enter your password :" id="loginpassword" required minlength="8"><br><br>
-                <input type="submit" title="Submit" name="button" onclick="checkcon()"><br>
-                <a href="" id="pcforgetpasswordbutton">Forget Password</a>
-                <a href="index.html" id="pcsignupbutton" onclick="gotosignup()">create or sign-up</a><br><br>
+            <div class="contianer">
+                <h1>LOGIN</h1>
+                <input type="text" placeholder="Enter your mail-ID :" id="loginemail" class="input" required autocomplete="off"><br>
+                <input type="password" placeholder="Enter your password :" id="loginpassword" class="input"  minlength="8" required autocomplete="off"><br>
+                <input type="submit" title="Enter" name="button" value="Submit" onclick="checkcon()"><br>
+                <a href="index.html" id="pcloginbutton">create an acount ? signup</a><br><br>
             </div>
-        </div>
     </form>
     <script src="script.js"></script>
 </body>
