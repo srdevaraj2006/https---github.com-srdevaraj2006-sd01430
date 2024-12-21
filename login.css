@@ -51,7 +51,7 @@ input[name="button"]:hover{
 #pcloginbutton:hover{
 
 }
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:390px) {
     .contianer{
         background-color: rgb(128, 128, 239);
         border-radius: 20px;
