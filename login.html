@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="./login.css">
 </head>
 <body>
-    <form action="" method="">
+    <form action="login.php" method="post">
             <div class="contianer">
                 <h1>LOGIN</h1>
-                <input type="text" placeholder="Enter your mail-ID :" id="loginemail" class="input" required autocomplete="off"><br>
-                <input type="password" placeholder="Enter your password :" id="loginpassword" class="input"  minlength="8" required autocomplete="off"><br>
-                <input type="submit" title="Enter" name="button" value="Submit" onclick="checkcon()"><br>
+                <input type="text" placeholder="Enter your mail-ID :" name="email_id" id="loginemail" class="input" required autocomplete="off"><br>
+                <input type="password" placeholder="Enter your password :" name="password1" id="loginpassword" class="input"  minlength="8" required autocomplete="off"><br><br><br>
+                <input type="submit" title="Enter" name="button" value="Submit"><br>
                 <a href="index.html" id="pcloginbutton">create an acount ? signup</a><br><br>
             </div>
     </form>
-    <script src="script.js"></script>
 </body>
 </html>
